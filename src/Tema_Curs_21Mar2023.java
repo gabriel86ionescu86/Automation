@@ -7,35 +7,39 @@ public class Tema_Curs_21Mar2023 {
     public static void main(String[] args) {
         // apelam metoda Ex1
         /*metodaEx1(4,5);
-        metodaEx1(7,7);*/
+        metodaEx1(7,7);
 
         // apelam metoda Ex2
-        /*metodaEx2(5,7);
-        metodaEx2(9,10);*/
+        metodaEx2(5,7);
+        metodaEx2(10,10);
 
         // apelam metoda Ex3
-        /*metodaEx3(4,5);
-        metodaEx3(7,7);*/
+        metodaEx3(4,5);
+        metodaEx3(7,7);
 
         // apelam metoda Ex4
-        /*metodaEx4(4,4,4); // echilateral: 4
+        metodaEx4(4,4,4); // echilateral: 4
         metodaEx4(6,4,6); // isoscel: 4,6
         metodaEx4(4,5,6); // oarecare: 4,5,6
-        metodaEx4(4,88,6); // non-triunghi: 4,6,88*/
+        metodaEx4(4,88,6); // non-triunghi: 4,6,88
 
         // apelam metoda Ex5
-        /*metodaEx5(-10);
+        metodaEx5(-10);
         metodaEx5(0);
         metodaEx5(10);
         metodaEx5(20);
-        metodaEx5(30);*/
+        metodaEx5(30);
 
         // apelam metoda Ex6
-        /*metodaEx6(50);
+        metodaEx6(50);
         metodaEx6(100);
         metodaEx6(150);
         metodaEx6(250);
         metodaEx6(300);*/
+
+        // O metoda extra care curata toate fisierele de informatii
+        //metodaCurataTot();
+
 
 
     } // sfarsitul clasei main
@@ -209,6 +213,20 @@ public class Tema_Curs_21Mar2023 {
         }
     }
 
+    static void metodaCurataTot(){
+        try {
+            for(int i = 1; i < 7; i++) {
+                FileWriter myWriter = new FileWriter("TemaCurs21-Exercitiul-" + i + ".txt");
+                myWriter.write("");
+                myWriter.close();
+                System.out.println("Fisier sters: TemaCurs21-Exercitiul-" + i + ".txt");
+            }
+        } catch (IOException e){
+            System.out.println("A fost intalnita o eroare");
+            e.printStackTrace();
+        }
+    }
+
 
     //       1. Scrieti o metoda care sa primeasca doi parametrii(lungime si latime). In functie de valorile
 //        primite afisati daca este un dreptunghi sau un patrat
@@ -261,7 +279,8 @@ public class Tema_Curs_21Mar2023 {
         return (int) (celsius*1.8)+32;
     }
 
-    //        6. Scrieti o metoda care transforma din km/h in mile/h. 1 mila = 1,6 km
+    //        6. Scrieti o metoda care transforma din km/h in mile/h.
+    //        1 mila = 1,6 km
     static double convertKmToMiles(double km){
         return (km*0.62137);
     }
