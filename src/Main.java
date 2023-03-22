@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-//test
+//GHICI CINE E AICI
         /*System.out.println("Prima sesiune a fost in data de " + 28 + " februarie " + 2023);
         System.out.println(50 + " " + 20 + " Text");
         System.out.println("Dorim să reamintim că termenul de plată a facurilor emise ");

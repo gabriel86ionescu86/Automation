@@ -1,6 +1,5 @@
 public class exercitii {
     public static void main(String[] args) {
-        //test
 //        System.out.println((int)Math.pow(2,10));
 //        System.out.println((int)Math.sqrt(100));
 //        System.out.println((double) Math.min(10,11));

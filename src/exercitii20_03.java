@@ -1,7 +1,5 @@
 public class exercitii20_03 {
     public static void main(String[] args) {
-        //test
-
         // exercitii matrici bidimensionale
 //        int[][] matrice = {{18,4}, {7,8},{9,15}};
         // cu for normal

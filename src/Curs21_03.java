@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class Curs21_03 {
     public static void main(String[] args) {
-        //test
-
        /* int nr1 = metodaPlus(8,5);
         double nr2 = metodaPlus(4.3,6.20);
         System.out.println("int: " + nr1);
