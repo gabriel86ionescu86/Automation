@@ -38,7 +38,7 @@ public class Tema_Curs_21Mar2023 {
         metodaEx6(300);*/
 
         // O metoda extra care curata toate fisierele de informatii
-        //metodaCurataTot();
+//        metodaCurataTot();
 
 
 
