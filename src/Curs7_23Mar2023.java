@@ -54,8 +54,8 @@ public class Curs7_23Mar2023 {
         String stringNr = input.next();
         System.out.println("Ai introdus: " + stringNr);*/
         // string pt fraze
-        System.out.print("Enter string: ");
+        /*System.out.print("Enter string: ");
         String stringNr = input.nextLine();
-        System.out.println("Ai introdus: " + stringNr);
+        System.out.println("Ai introdus: " + stringNr);*/
     }
 }
