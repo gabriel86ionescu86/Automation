@@ -213,7 +213,7 @@ public class Tema_Curs_21Mar2023 {
         }
     }
 
-    static void metodaCurataTot(){
+    static void metodaCurataTot(){ // metoda folosita pentru a curata fisiere text
         try {
             for(int i = 1; i < 7; i++) {
                 FileWriter myWriter = new FileWriter("TemaCurs21-Exercitiul-" + i + ".txt");
