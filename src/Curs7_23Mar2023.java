@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Curs7_23Mar2023 {
@@ -57,5 +58,6 @@ public class Curs7_23Mar2023 {
         /*System.out.print("Enter string: ");
         String stringNr = input.nextLine();
         System.out.println("Ai introdus: " + stringNr);*/
+
     }
 }
